@@ -1,0 +1,30 @@
+header{
+    overflow: hidden;
+    float: none;
+    padding: 10em;
+    padding-bottom: 20em;
+    background-image: url("../images/bg.JPG");
+    background-color: #dfe8ff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    background: #fff;
+}
+
+.project-inner {
+    margin: auto;
+    padding-top: 3em;
+    width: 80%;
+    text-align: justify;
+}
+
+img {
+    border-radius: 1em;
+}
+
+.keywords li{
+    background: pink;
+}
