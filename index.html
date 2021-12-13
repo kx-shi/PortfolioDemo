@@ -4,6 +4,7 @@
     <head>
         <title>Portfolio Karolina Shi</title>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
@@ -14,83 +15,84 @@
         </nav>
 
         <header>
-            <h1><a href="#">Karolina Shi</a></h1>
-            <h2 class="heading-1">&#x1F4BB Project Portfolio</h2>
-            <div id="custom-nav">
-                <h3 class="heading-1"><a href="html/about.html">About me &#x279e</a></h3>
-            </div>
+            <h1><a href="#">Karo(lina) Shi</a></h1>
+            <h2>&#x1F4BB Interactive Mediatechnology / Sonic Media</h2>
+            <nav>
+                <a class="nav-a" href="#about-link">About</a>
+                <a class="nav-a" href="#projects-link">Projects</a>
+                <a class="nav-a" href="#contact-link">Contact</a>
+            </nav>
         </header>
 
         <main>
-            <div id="project-box-3">
-                <p class="project-header">Sound Interaction / Spring 2021</p>
-                <div class="project-inner animation-element fade-in">
-                    <div class="flex-item">
-                        <img src="assets/images/sfbs/sfbs.png" alt="sfbs" width="720" height="420">
+            <div id="block-1" class="fade-in">
+                <h2>Projects &#x21B4</h2>
+                <a id="projects-link" class="anchor"></a>
+                <div class="project-gallery">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <div class="project-container">
+                        <div class="project-item">
+                            <img class="project-image" src="assets/images/datatonism/datatonism-thumbnail.png" alt="datatonism" width="600" height="400">
+                            <div class="info">
+                                <h3><a href="html/projects/datatonism.html">Datatonism</a></h3>
+                                <p>Duration: 6 weeks</p>
+                                <p>
+                                    Datatonism is a digital emulation of the Dataton System 3000 – an analog synthesizer from the 1970s.
+                                </p>
+                                <button class="read-more"><a href="html/projects/datatonism.html">Read more &#x279e</a></button>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <img class="project-image" src="assets/images/spir/spir-thumbnail.png" alt="spir" width="600" height="400">
+                            <div class="info">
+                                <h3><a href="html/projects/spir.html">Spir</a></h3>
+                                <p>Duration: 8 weeks</p>
+                                <p>
+                                    Developed in the course DM2601 Media Technology and Interaction Design, Spir is a smart coaster
+                                    that aims at seizing micro-opportunities to help you slow down throughout your day.
+                                </p>
+                                <button class="read-more"><a href="html/projects/spir.html">Read more &#x279e</a></button>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <img class="project-image" src="assets/images/steammind/steammind-thumbnail.png" alt="steammind" width="600" height="400">
+                            <div class="info">
+                                <h3><a href="html/projects/steammind.html">Steammind</a></h3>
+                                <p>Duration: 6 weeks</p>
+                                <p>
+                                    Steammind visualizes your Steam library and shows recommendations based on your library.
+                                </p>
+                                <button class="read-more"><a href="html/projects/steammind.html">Read more &#x279e</a></button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex-item">
-                        <h2 class="heading-2">Sound Forest by The Sea</h2>
-                        <p>
-                            Sound Forest by The Sea (SFBS) is an interactive, beach-inspired soundscape. In the soundscape, the 
-                            user can play with waves and scare of visiting birds. Utilizing sound- and distance data, various
-                            parameters such as sound pitch, amplitude, as well as string colour are controllable.
-                        </p>
-                        <button class="read-more"><a href="html/projects/sfbs.html">Read more &#x279e</a></button>
-                    </div>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             </div>
 
-            <div id="project-box-4">
-                <p class="project-header">Information Visualization / Spring 2021</p>
-                <div class="project-inner animation-element fade-in">
-                    <div class="flex-item">
-                        <img src="assets/images/steammind/steammind.png" alt="steammind" width="720" height="420">
-                    </div>
-                    <div class="flex-item">
-                        <h2 class="heading-2">Steammind</h2>
-                        <p>
-                            Inspired by Steam's recommendation system, we approached a new way of visualizing your Steam library.
-                            By displaying games that you own, Steammind aims to both provide insight on your personal gaming preferences as well
-                            as visualize a selected set of other games that fits your current library.
-                        </p>
-                        <button class="read-more"><a href="html/projects/steammind.html">Read more &#x279e</a></button>
-                    </div>
+            <div id="block-2" class="fade-in">
+                <a id="about-link" class="anchor"></a>
+                <h2>About me</h2>
+                <div class="grid-left">
+                    <p>Karolina is a lost soul that has yet to decide what they want to do.
+                        Quite interested in music and sound processing, a bit of web development,
+                        embedded systems (but only the fun ones), interactive technology,
+                        working with disabilitites, mental health and technology.
+                        Currently located in Stockholm, Sweden.</p>
+                    <p><a href="assets/other/CV.pdf">Link to CV</a></p>
+                </div>
+                <div class="grid-right">
+                    <img src="assets/images/IMG_4908-R2.png" alt="me" width="500" height="500">
                 </div>
             </div>
 
-            <div id="project-box-2">
-                <p class="project-header">Interaction Design / Autumn 2020</p>
-                <div class="project-inner animation-element fade-in">
-                    <div class="flex-item">
-                        <img src="assets/images/spir/spir-1.png" alt="spir" width="720" height="450">
-                    </div>
-                    <div class="flex-item">
-                        <h2 class="heading-2">Spir: Take a breather with a smart coaster</h2>
-                        <p>
-                            Working with the general theme of Pandemic Media, our goal was to explore different ways to take a break in a
-                            working-from-home environment. Looking at the natural pauses of food-breaks, we investigated how to utilize
-                            these breaks to connect with your food and be more mindful.
-                        </p>
-                        <button class="read-more"><a href="html/projects/spir.html">Read more &#x279e</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div id="project-box-3">
-                <p class="project-header">Sound Visualization / Autumn 2019 – Spring 2020</p>
-                <div class="project-inner animation-element fade-in">
-                    <div class="flex-item">
-                        <img src="assets/images/perform-vic/perform-vic-graphics2.png" alt="perform-vic" width="720" height="400">
-                    </div>
-                    <div class="flex-item">
-                        <h2 class="heading-2">PERFORM-VIC</h2>
-                        <p>
-                            Standing for adaPtive visualizER FOr stReaming Music-Visualisation Interaction Collaboration,
-                            PERFORM-VIC is a real-time music- and audio visualizer.
-                        </p>
-                        <button class="read-more"><a href="html/projects/performvic.html">Read more &#x279e</a></button>
-                    </div>
-                </div>
+            <div id="block-3" class="fade-in">
+                <a id="contact-link" class="anchor"></a>
+                    <h2>Contact</h2>
+                    <p><a href="https://www.linkedin.com/in/karolina-shi-3684bb18a/">linkedin</a> | 
+                        <a href="https://github.com/kx-shi">github</a> | 
+                        <a href="mailto: karshi@kth.se">email</a>
+                    </p>
             </div>
         </main>
 
@@ -99,6 +101,7 @@
         </footer>
 
         <script src="assets/scripts/jquery-3.6.0.js"></script>
+        <script src="assets/scripts/slide.js"></script>
         <script src="assets/scripts/animation.js"></script>
     </body>
 
